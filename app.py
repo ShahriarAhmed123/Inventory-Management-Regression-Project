@@ -174,3 +174,8 @@ input_vector["Current_Stock_Level"] = current_stock
 input_scaled = scaler.transform(input_vector)
 prediction = model.predict(input_scaled)[0]
 
+
+
+st.write("Available encoders:", list(label_encoders.keys()))
+
+
