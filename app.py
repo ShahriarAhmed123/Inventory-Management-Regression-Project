@@ -130,7 +130,8 @@ with tab2:
         "Avg_Sales": [120, 90, 150, 80, 60]
     })
     fig = px.bar(demo_data, x="Category", y="Avg_Sales", title="Average Sales by Category")
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
+
 
 with tab3:
     st.subheader("📈 Model Performance Metrics")
@@ -143,14 +144,16 @@ with tab3:
         "R2_Score": [0.65, 0.70, 0.75, 0.82, 0.8791]
     })
     fig2 = px.bar(perf_data, x="Model", y="R2_Score", title="Model Comparison (R² Score)")
-    st.plotly_chart(fig2, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
+
 
     importance_data = pd.DataFrame({
         "Feature": ["Promotion", "Category", "Store_Type", "Region", "Current_Stock_Level"],
         "Importance": [0.25, 0.20, 0.18, 0.15, 0.12]
     })
     fig3 = px.bar(importance_data, x="Importance", y="Feature", orientation="h", title="Feature Importance")
-    st.plotly_chart(fig3, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
+
 
 # -----------------------------
 # Footer
