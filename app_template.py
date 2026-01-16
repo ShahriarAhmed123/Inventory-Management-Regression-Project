@@ -392,7 +392,8 @@ st.markdown("---")
 st.markdown("""
     <div style='text-align: center; color: #666;'>
         <p>📦 Inventory Demand Forecasting System | ML Assignment Project</p>
-        <p>Model trained on historical inventory data | Last updated: December 2026</p>
+        <p>Model trained on historical inventory data | Last updated: December 16/1/2026</p>
     </div>
 """, unsafe_allow_html=True)
+
 
