@@ -1,10 +1,9 @@
 streamlit
-joblib
-scikit-learn
 pandas
 numpy
+scikit-learn
+joblib
 plotly
-
 
 
 
