@@ -153,3 +153,24 @@ with tab3:
 # -----------------------------
 st.markdown("---")
 st.markdown("*Model trained on cleaned inventory dataset | Last updated: 2026*")
+
+
+
+# Load feature names
+feature_names = joblib.load("feature_names.pkl")
+
+# Initialize full feature vector with zeros
+input_vector = pd.DataFrame(np.zeros((1, len(feature_names))), columns=feature_names)
+
+# Fill in user inputs
+input_vector["Product_Category"] = label_encoders["Product_Category"].transform([category])
+input_vector["Store_Type"] = label_encoders["Store_Type"].transform([store_type])
+input_vector["Region"] = label_encoders["Region"].transform([region])
+input_vector["Date"] = pd.to_datetime([prediction_date]).astype(int) / 10**9
+input_vector["Is_Promotion"] = int(is_promotion)
+input_vector["Current_Stock_Level"] = current_stock
+
+# Scale and predict
+input_scaled = scaler.transform(input_vector)
+prediction = model.predict(input_scaled)[0]
+
