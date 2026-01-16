@@ -1,12 +1,9 @@
-
 import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
 import plotly.express as px
 from datetime import datetime, timedelta
-
-
 
 # -----------------------------
 # Load saved model, scaler, encoders
@@ -124,14 +121,12 @@ tab1, tab2, tab3 = st.tabs(["Prediction", "Historical Analysis", "Model Performa
 
 with tab2:
     st.subheader("📊 Historical Sales Analysis")
-    # Sample demo data
     demo_data = pd.DataFrame({
         "Category": ["Electronics", "Clothing", "Groceries", "Home & Kitchen", "Beauty"],
         "Avg_Sales": [120, 90, 150, 80, 60]
     })
     fig = px.bar(demo_data, x="Category", y="Avg_Sales", title="Average Sales by Category")
-    st.plotly_chart(fig, width="stretch")
-
+    st.plotly_chart(fig, width="stretch", key="hist_chart")
 
 with tab3:
     st.subheader("📈 Model Performance Metrics")
@@ -144,16 +139,14 @@ with tab3:
         "R2_Score": [0.65, 0.70, 0.75, 0.82, 0.8791]
     })
     fig2 = px.bar(perf_data, x="Model", y="R2_Score", title="Model Comparison (R² Score)")
-    st.plotly_chart(fig, width="stretch")
-
+    st.plotly_chart(fig2, width="stretch", key="perf_chart")
 
     importance_data = pd.DataFrame({
         "Feature": ["Promotion", "Category", "Store_Type", "Region", "Current_Stock_Level"],
         "Importance": [0.25, 0.20, 0.18, 0.15, 0.12]
     })
     fig3 = px.bar(importance_data, x="Importance", y="Feature", orientation="h", title="Feature Importance")
-    st.plotly_chart(fig, width="stretch")
-
+    st.plotly_chart(fig3, width="stretch", key="importance_chart")
 
 # -----------------------------
 # Footer
