@@ -5,6 +5,8 @@ Access the deployed app here:
 👉 [Inventory Demand Forecasting App](https://inventory-management-regression-project-v3is6qqhmwppfx4kniaxgy.streamlit.app/)
 
 ---
+## 🖼️ Tech Stack & Badges ![Python](https://img.shields.io/badge/Python-3.9-blue?logo=python&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.5-orange?logo=scikitlearn&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-Visualization-lightblue?logo=plotly&logoColor=white) ![Joblib](https://img.shields.io/badge/Joblib-Model_Save-green)
+
 
 ## 📖 Overview
 The **Inventory Demand Forecasting System** is a **Streamlit web application** designed for **RetailMart Inc.** to predict optimal stock levels.  
