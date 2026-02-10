@@ -1,0 +1,53 @@
+store_id,store_name,store_type,city,region,store_size_sqft,opening_date,manager_id,num_employees,parking_capacity
+ST001,Chicago Warehouse #5,Warehouse,Chicago,North,22797,2018-10-20,M1036,56.0,151
+ST002,Chicago Hypermarket #1,,Chicago,North,15614,2020-04-24,M1034,175.0,313
+ST003,Detroit Hypermarket #5,Hypermarket,Detroit,N,17588,2020-09-18,M1035,164.0,203
+ST004,Minneapolis Supermarket #5,Supermarket,Minneapolis,N,4662,2015-04-20,M1039,187.0,450
+ST005,Minneapolis Express #2,Express,Minneapolis,North,1783,2019-04-07,M1010,82.0,11
+ST006,Milwaukee Supermarket #4,Supermarket,Milwaukee,North,4882,2020-04-15,M1048,200.0,120
+ST007,Milwaukee Warehouse #4,Warehouse,Milwaukee,North,25186,2020-12-23,M1022,193.0,445
+ST008,Milwaukee Hypermarket #3,Hypermarket,Milwaukee,North,17205,2021-04-04,M1020,96.0,444
+ST009,Indianapolis Express #5,Express,Indianapolis,north,1622,2016-05-14,M1037,117.0,22
+ST010,Indianapolis Hypermarket #2,Hypermarket,Indianapolis,North,16910,2018-11-19,M1029,142.0,159
+ST011,Houston Hypermarket #2,Hypermarket,Houston,South,17598,2015-07-27,M1043,77.0,376
+ST012,Dallas Supermarket #1,Supermarket,Dallas,S,4200,2016-10-08,M1027,141.0,294
+ST013,Miami Express #5,Express,Miami,South,1371,2015-06-02,M1012,65.0,11
+ST014,Miami Warehouse #2,Warehouse,Miami,S,29971,2015-06-03,M1001,174.0,104
+ST015,Miami Hypermarket #5,Hypermarket,Miami,S,17570,2020-08-27,M1030,48.0,219
+ST016,Atlanta Warehouse #1,Warehouse,Atlanta,South,26482,2017-03-02,M1012,183.0,257
+ST017,New Orleans Hypermarket #4,Hypermarket,New Orleans,SOUTH,14404,2017-08-22,M1029,104.0,204
+ST018,New Orleans Supermarket #3,Supermarket,New Orleans,South,5164,2016-04-29,M1030,123.0,401
+ST019,New York Hypermarket #3,Hypermarket,New York,East,15832,2016-09-19,M1030,175.0,241
+ST020,New York Warehouse #4,Warehouse,New York,East,24158,2017-10-10,M1044,40.0,319
+ST021,New York Supermarket #1,Supermarket,New York,East,4893,2020-09-01,M1013,58.0,134
+ST022,Boston Warehouse #4,Warehouse,Boston,East,26802,2020-02-01,M1009,136.0,338
+ST023,Boston Supermarket #3,Supermarket,Boston,East,4115,2017-06-11,M1038,128.0,226
+ST024,Philadelphia Supermarket #1,Supermarket,Philadelphia,E,5869,2019-09-18,M1024,117.0,279
+ST025,Philadelphia Hypermarket #4,Hypermarket,Philadelphia,East,17217,2016-06-28,M1042,50.0,141
+ST026,Philadelphia Warehouse #2,Warehouse,Philadelphia,EAST,29928,2020-03-11,M1044,128.0,322
+ST027,Baltimore Express #1,,Baltimore,EAST,1476,2015-03-06,M1016,45.0,29
+ST028,Baltimore Supermarket #1,Supermarket,Baltimore,East,4067,2021-01-19,M1014,34.0,121
+ST029,Washington DC Hypermarket #3,Hypermarket,Washington DC,East,15464,2020-11-05,M1015,90.0,81
+ST030,Washington DC Supermarket #2,Supermarket,Washington DC,East,5113,2018-11-11,M1042,154.0,213
+ST031,Washington DC Express #3,Express,Washington DC,East,1617,2017-07-12,M1020,56.0,24
+ST032,Los Angeles Warehouse #2,Warehouse,Los Angeles,West,29677,2015-11-20,M1029,43.0,324
+ST033,San Francisco Express #1,Express,San Francisco,West,1426,2021-04-08,M1014,105.0,19
+ST034,San Francisco Supermarket #1,Supermarket,San Francisco,WEST,5914,2021-10-11,M1046,81.0,332
+ST035,San Francisco Warehouse #5,Warehouse,San Francisco,W,23216,2020-07-29,M1030,140.0,439
+ST036,Seattle Express #2,,Seattle,WEST,1387,2019-09-07,M1019,104.0,17
+ST037,Seattle Warehouse #4,Warehouse,Seattle,West,23798,2020-06-24,M1047,145.0,285
+ST038,Denver Hypermarket #4,Hypermarket,Denver,West,13015,2015-08-29,M1034,,483
+ST039,Phoenix Supermarket #2,Supermarket,Phoenix,West,5528,2020-02-11,M1024,183.0,391
+ST040,Kansas City Warehouse #4,,Kansas City,Central,20157,2018-03-20,M1002,198.0,395
+ST041,Kansas City Hypermarket #2,Hypermarket,Kansas City,Central,14583,2017-02-25,M1040,110.0,186
+ST042,Kansas City Express #4,Express,Kansas City,C,1676,2015-11-27,M1042,186.0,11
+ST043,St. Louis Warehouse #1,Warehouse,St. Louis,Central,23792,2019-11-13,M1042,164.0,489
+ST044,Oklahoma City Supermarket #5,Supermarket,Oklahoma City,Central,4459,2018-02-22,M1035,28.0,141
+ST045,Memphis Supermarket #4,Supermarket,Memphis,Central,5174,2021-05-10,M1025,158.0,219
+ST046,Memphis Warehouse #1,Warehouse,Memphis,Central,23838,2019-11-26,M1015,107.0,359
+ST047,Nashville Warehouse #4,Warehouse,Nashville,Central,26341,2019-11-04,M1012,189.0,244
+ST048,Nashville Express #2,Express,Nashville,Central,1251,2016-09-23,M1048,112.0,13
+ST049,Nashville Supermarket #4,Supermarket,Nashville,Central,4183,2017-02-06,M1028,162.0,312
+ST033,San Francisco Express #1,Express,San Francisco,West,1426,2021-04-08,M1014,105.0,19
+ST037,Seattle Warehouse #4,Warehouse,Seattle,West,23798,2020-06-24,M1047,145.0,285
+ST036,Seattle Express #2,,Seattle,WEST,1387,2019-09-07,M1019,104.0,17

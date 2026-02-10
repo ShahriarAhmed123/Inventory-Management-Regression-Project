@@ -1,0 +1,21 @@
+supplier_id,supplier_name,contact_email,phone,country,lead_time_days,reliability_score,min_order_quantity,payment_terms,active_status
+S101,GLOBAL SUPPLIES CO,contact@globalsupp.com,+1-389-119-6965,Mexico,5.0,4.1,100,Net 60,Yes
+S102,FastTrack Logistics,contact@fasttrackl.com,+1-619-756-6276,China,24.0,,25,Net 60,active
+S103,Prime Distributors,contact@primedistr.com,N/A,Vietnam,19.0,4.2,10,Net 15,Active
+S104,QUALITY FIRST INC,contact@qualityfir.com,+1-281-579-1994,Japan,16.0,4.6,10,,Active
+S105,Reliable Wholesale,contact@reliablewh.com,N/A,Mexico,6.0,3.5,100,Net 60,active
+S106,Express Shipping Ltd,contact@expressshi.com,+1-771-525-2728,Japan,25.0,4.8,25,Net 60,1
+S107,MegaMart Suppliers,contact@megamartsu.com,+1-653-460-6163,Japan,16.0,3.9,500,Net 15,1
+S108,Value Chain Partners,contact@valuechain.com,+1-962-360-6898,Canada,15.0,,10,Net 15,1
+S109,Direct Source Inc,contact@directsour.com,N/A,Mexico,13.0,,500,Net 15,1
+S110,Premium Goods LLC,contact@premiumgoo.com,+1-238-571-6827,India,14.0,3.5,50,Net 15,Yes
+S111,Swift Delivery Co,contact@swiftdeliv.com,N/A,Japan,8.0,4.8,500,,Active
+S112,Trusted Vendors Inc,contact@trustedven.com,+1-790-490-2285,USA,13.0,4.6,100,Net 30,active
+S113,Alliance Distribution,contact@alliancedi.com,+1-849-896-7266,USA,4.0,4.1,50,,active
+S114,Core Supplies Ltd,contact@coresuppli.com,+1-656-870-9269,China,12.0,3.3,50,Net 30,Active
+S115,United Wholesalers,contact@unitedwhol.com,+1-644-892-3136,India,9.0,4.3,25,,1
+S116,Star Logistics,,+1-531-801-2467,China,16.0,3.4,50,,ACTIVE
+S117,Elite Distributors,contact@elitedistr.com,+1-652-738-3389,Canada,,3.4,50,Net 60,Active
+S118,First Choice Suppliers,,+1-351-989-5713,USA,28.0,3.9,10,Net 15,1
+S119,Rapid Response Inc,contact@rapidrespo.com,+1-761-594-3315,USA,24.0,3.5,10,Net 15,1
+S120,Efficient Supply Co,contact@efficients.com,+1-268-497-5445,Japan,3.0,4.8,100,Net 60,1
